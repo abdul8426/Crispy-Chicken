@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crispy Chicken</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body><header>
+    <h1>🍗 Crispy Chicken</h1><div class="header-icons">
+    <button id="theme-btn">🌙</button>
+
+    <button id="cart-btn">
+        🛒 <span id="count">0</span>
+    </button>
+</div>
+
+</header><section class="hero">
+    <h2>Hot & Crispy Chicken Delivered Fast</h2>
+    <p>Fresh • Tasty • Affordable</p>
+</section><div id="products" class="products"></div><div id="cart" class="cart">
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button onclick="closeCart()">✖</button>
+    </div><div id="cart-items"></div>
+
+<div class="cart-footer">
+    <h3>Total: ₹<span id="total">0</span></h3>
+    <button onclick="goCheckout()" class="checkout-btn">
+        Checkout
+    </button>
+</div>
+
+</div><script src="script.js"></script></body>
+</html>
